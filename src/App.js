@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header>
         <p>love-letters-and-poetry</p>
-        <p>data from <a href='https://poetrydb.org/index.html' >poetrydb.org</a></p>
+        <p>data from <a target="_blank" href='https://poetrydb.org/index.html' >poetrydb.org</a></p>
       </header>
       <div className='title'>
         <h1><span className='love'>Love</span> me, <span className='not'>Love me</span> not</h1>
