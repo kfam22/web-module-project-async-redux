@@ -1,5 +1,6 @@
 {
   "name": "codegraded-project-react",
+  "homepage": ".",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {

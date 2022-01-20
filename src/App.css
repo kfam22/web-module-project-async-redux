@@ -60,6 +60,10 @@ header a{
   text-decoration: line-through;
 }
 
+.loading{
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+}
 /* button styles */
 button {
   padding: .8rem 1.2rem .8rem 1.2rem;
@@ -88,13 +92,16 @@ button {
 .poemTitle{
   font-size: 2.6rem;
   font-family: 'Cedarville Cursive', cursive;
+  margin-bottom: 3rem ;
 }
 
 .author{
   /* font-family: 'Montagu Slab', serif; */
   font-family: 'Cedarville Cursive', cursive;
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-right: 9rem;
+  text-align: right;
 }
 
 .poemContainer p{

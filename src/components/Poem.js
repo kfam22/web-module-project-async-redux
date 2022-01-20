@@ -13,7 +13,7 @@ const Poem = ({ poem, isFetching, error, dispatch})=>{
     }
 
     if(isFetching) {
-        return <h3 className='title'>poem loading...</h3>;
+        return <h3 className='title loading'>poem loading...</h3>;
     }
 
     const handleLoveClick = ()=>{
@@ -33,8 +33,8 @@ const Poem = ({ poem, isFetching, error, dispatch})=>{
         {poem && 
             <div className='poemContainer'>
                 <h3 className='poemTitle'>{poem.title}</h3>
-                <h3 className='author'>{`By ${poem.author}`}</h3>
                 <p>{poem.lines.join('\n')}</p>
+                <h3 className='author signature'>{`- ${poem.author}`}</h3>
             </div>
             }
        
