@@ -9,11 +9,11 @@ const Poem = ({ poem, isFetching, error, dispatch})=>{
     }, [])
 
     if(error) {
-        return <h3> uh oh, there's an error: {error}</h3>;
+        return <h3 className='title'> uh oh, there's an error: {error}</h3>;
     }
 
     if(isFetching) {
-        return <h3>poem loading...</h3>;
+        return <h3 className='title'>poem loading...</h3>;
     }
 
     const handleLoveClick = ()=>{
